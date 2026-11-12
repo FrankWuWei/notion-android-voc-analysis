@@ -1,0 +1,280 @@
+{
+  "version": 1,
+  "method": "manual_semantic_review",
+  "review_scope": "All API evidence quotes that were not exact substrings of their referenced source review.",
+  "decisions": [
+    {
+      "batch_id": "mixed_or_uncertain_001",
+      "theme_id": "ai_behavior_and_ai_visibility",
+      "review_id": "3a852c9f-3e9a-4a4a-a2c9-e142567b750b",
+      "action": "replace",
+      "replacement_quote": "الذكاء الاصطناعي محدود للغايه وغالي في سعر الاشتراك",
+      "reason_zh": "原評論明確指出 AI 能力有限且訂閱昂貴，改用可逐字回查的阿拉伯文片段。"
+    },
+    {
+      "batch_id": "mixed_or_uncertain_001",
+      "theme_id": "onboarding_and_learnability",
+      "review_id": "e9d80dee-e555-4286-b44d-4e1c722dd305",
+      "action": "replace",
+      "replacement_quote": "ahora anda a entender como armar algo que te funcione.",
+      "reason_zh": "原評論描述難以理解如何建立可用內容，改用可逐字回查的西班牙文片段。"
+    },
+    {
+      "batch_id": "mixed_or_uncertain_001",
+      "theme_id": "pricing_and_paywall",
+      "review_id": "3a852c9f-3e9a-4a4a-a2c9-e142567b750b",
+      "action": "replace",
+      "replacement_quote": "وغالي في سعر الاشتراك",
+      "reason_zh": "原評論明確指出訂閱價格昂貴，改用可逐字回查的阿拉伯文片段。"
+    },
+    {
+      "batch_id": "mixed_or_uncertain_001",
+      "theme_id": "pricing_and_paywall",
+      "review_id": "117f8547-987c-4d80-899c-f3ffefcfa96b",
+      "action": "replace",
+      "replacement_quote": "they will not let you make add-on purchases",
+      "reason_zh": "模型將原文的 you 改寫成 me；改回評論中的逐字片段。"
+    },
+    {
+      "batch_id": "mixed_or_uncertain_001",
+      "theme_id": "search_and_navigation_discovery",
+      "review_id": "6a2061c2-0d01-481a-9a12-1672d42345b7",
+      "action": "drop",
+      "reason_zh": "原評論只有 very slow，沒有搜尋或導覽內容，不能支持此主題。"
+    },
+    {
+      "batch_id": "mixed_or_uncertain_002",
+      "theme_id": "laggy_and_poor_performance",
+      "review_id": "a8d4e2e6-c2ba-4423-b67b-81950aea4a03",
+      "action": "replace",
+      "replacement_quote": "Crashes or restarts unexpectedly, losing my edited content.",
+      "reason_zh": "原評論明確描述當機與重新啟動，改用完整且可回查的句子。"
+    },
+    {
+      "batch_id": "mixed_or_uncertain_002",
+      "theme_id": "ai_ui_annoyance_and_limited_ai_controls",
+      "review_id": "9941d8cb-df13-45f8-97c9-de87d5f34844",
+      "action": "replace",
+      "replacement_quote": "With the last update on phones came a bottom bar for searching, \"AI\", and creating a new page.",
+      "reason_zh": "模型改寫了句首；改用原評論中描述 AI 底部工具列的完整句子。"
+    },
+    {
+      "batch_id": "mixed_or_uncertain_002",
+      "theme_id": "bugs_and_data_loss",
+      "review_id": "29c2ed85-37e9-47db-9940-f90aa17603ea",
+      "action": "drop",
+      "reason_zh": "原評論只要求更多自訂選項，沒有按鈕失效、錯誤或資料遺失內容。"
+    },
+    {
+      "batch_id": "mixed_or_uncertain_003",
+      "theme_id": "missing_mobile_features_and_controls",
+      "review_id": "23918267-7a95-4ef9-8ac3-7890246c949b",
+      "action": "replace",
+      "replacement_quote": "And there's no way to use custom emoji on mobile.",
+      "reason_zh": "原評論明確指出手機端無法使用自訂 emoji，改用逐字句子。"
+    },
+    {
+      "batch_id": "mixed_or_uncertain_004",
+      "theme_id": "ui_ux_confusing_and_clunky",
+      "review_id": "c5884aa7-d747-476f-8919-765e124144f1",
+      "action": "replace",
+      "replacement_quote": "there's a steep learning curve it seems.",
+      "reason_zh": "模型省略句尾字詞；改用原評論中的完整片段。"
+    },
+    {
+      "batch_id": "mixed_or_uncertain_005",
+      "theme_id": "performance_lag_freeze_bugs",
+      "review_id": "02f4573a-e0be-44e2-9f8b-f55992161cae",
+      "action": "replace",
+      "replacement_quote": "Apenas tenho alguns problemas de lentidao/travamento, e pequenos bugs de vez em quando.",
+      "reason_zh": "原評論明確提及緩慢、卡住及零星錯誤，改用可回查的葡萄牙文句子。"
+    },
+    {
+      "batch_id": "mixed_or_uncertain_005",
+      "theme_id": "performance_lag_freeze_bugs",
+      "review_id": "c8d64744-51df-4375-9219-20c673a421fd",
+      "action": "replace",
+      "replacement_quote": "The app is laggy sometimes, sometimes it crashes in pretty usual use cases, sometimes when you open a note you see just a white screen and content just doesn't load (fixable by restarting the app).",
+      "reason_zh": "模型節錄未維持原文大小寫；改用完整且可回查的效能問題句子。"
+    },
+    {
+      "batch_id": "mixed_or_uncertain_005",
+      "theme_id": "sync_offline_and_data_loss",
+      "review_id": "bd936c0d-4942-493b-aacd-474d3a043038",
+      "action": "replace",
+      "replacement_quote": "cuando estás sin conexión a internet y anotas algo en un cuadro privado.",
+      "reason_zh": "原評論描述離線記錄後內容遭刪除，改用可回查的西班牙文片段。"
+    },
+    {
+      "batch_id": "mixed_or_uncertain_005",
+      "theme_id": "search_discoverability_gaps",
+      "review_id": "1e2c2971-f6a9-404e-a165-7f7dbc83ed80",
+      "action": "replace",
+      "replacement_quote": "The app really needs to highlight search matches inside a page.",
+      "reason_zh": "模型只改變句首大小寫；改用原評論的完整句子。"
+    },
+    {
+      "batch_id": "mixed_or_uncertain_005",
+      "theme_id": "feature_gaps_and_mobile_parity",
+      "review_id": "112abd8d-8d70-4fad-bde0-6730d266a3b9",
+      "action": "replace",
+      "replacement_quote": "The only thing which I felt missing is drawing option.",
+      "reason_zh": "原評論明確指出缺少繪圖功能，改用逐字句子。"
+    },
+    {
+      "batch_id": "mixed_or_uncertain_006",
+      "theme_id": "sync_loading_and_state_refresh_issues",
+      "review_id": "3fe56e4f-53ba-4cf3-acdc-23c20d39a393",
+      "action": "drop",
+      "reason_zh": "原評論描述整體卡頓，沒有切換 App 後回到首頁或狀態恢復內容，不能支持此主題。"
+    },
+    {
+      "batch_id": "mixed_or_uncertain_006",
+      "theme_id": "ai_feature_push_and_pricing_concerns",
+      "review_id": "f5e7fd59-5534-4136-82d9-887eb60ea9be",
+      "action": "drop",
+      "reason_zh": "原評論只提 AI 倫理疑慮，沒有無法移除、功能推送或價格內容。"
+    },
+    {
+      "batch_id": "mixed_or_uncertain_008",
+      "theme_id": "mobile_performance_instability",
+      "review_id": "daec4e40-0ec5-4656-837b-4ad133434cc6",
+      "action": "replace",
+      "replacement_quote": "ele fica apenas com a mensagem \"Salvando...\" e demora cerca de 3 minutos para carregar.",
+      "reason_zh": "原評論明確描述儲存卡住約三分鐘，改用可回查的葡萄牙文片段。"
+    },
+    {
+      "batch_id": "mixed_or_uncertain_009",
+      "theme_id": "mobile_feature_parity_and_usability",
+      "review_id": "cb5556d8-65df-4602-b217-11fcef4d05b7",
+      "action": "drop",
+      "reason_zh": "原評論只肯定 Notion 的整理與任務管理能力，沒有桌面與手機差異。"
+    },
+    {
+      "batch_id": "mixed_or_uncertain_009",
+      "theme_id": "media_upload_and_rendering_issues",
+      "review_id": "81152ed5-1c96-4b39-8375-d66fc75a892a",
+      "action": "replace",
+      "replacement_quote": "I just wish it would let me embed an image with out it not loading g and I have to reset the app then replace it with the SAME IMAGE.",
+      "reason_zh": "原評論明確描述圖片嵌入後不載入，改用包含原始錯字的逐字句子。"
+    },
+    {
+      "batch_id": "mixed_or_uncertain_010",
+      "theme_id": "mobile_feature_gap_and_inconsistent_layout",
+      "review_id": "0ed29f3c-fdbf-4934-a1aa-a26fcd5b1b60",
+      "action": "replace",
+      "replacement_quote": "it displays the colums side by side, so i cant read it at all.",
+      "reason_zh": "原評論明確描述平板直向模式仍並排顯示欄位，改用逐字片段。"
+    },
+    {
+      "batch_id": "mixed_or_uncertain_010",
+      "theme_id": "mobile_feature_gap_and_inconsistent_layout",
+      "review_id": "6e2b2271-47cf-406e-83ad-d52644be3000",
+      "action": "replace",
+      "replacement_quote": "the app still treats it as a 'normal' phone.",
+      "reason_zh": "原評論明確指出摺疊機仍被視為一般手機，改用逐字句子。"
+    },
+    {
+      "batch_id": "mixed_or_uncertain_010",
+      "theme_id": "offline_access_and_network_dependency",
+      "review_id": "2b3880a7-c2ca-407d-b16c-b10ac6abe4fd",
+      "action": "replace",
+      "replacement_quote": "fica inútil sem internet",
+      "reason_zh": "原評論明確指出沒有網路時無法使用，改用可回查的葡萄牙文片段。"
+    },
+    {
+      "batch_id": "negative_002",
+      "theme_id": "ai_ui_and_forced_ai_backlash",
+      "review_id": "83e5cec6-e241-4b81-badf-54b19930d863",
+      "action": "replace",
+      "replacement_quote": "hides the AI UI elements.",
+      "reason_zh": "原評論要求提供隱藏 AI 介面的切換選項，改用逐字片段。"
+    },
+    {
+      "batch_id": "negative_002",
+      "theme_id": "offline_sync_and_connectivity_issues",
+      "review_id": "d0845a3b-63ca-47d3-8541-b430e6ad2453",
+      "action": "replace",
+      "replacement_quote": "Let users save certain pages when offline..",
+      "reason_zh": "模型省略 certain；改用原評論中的完整句子。"
+    },
+    {
+      "batch_id": "negative_003",
+      "theme_id": "editing_input_keyboard",
+      "review_id": "a24bdd69-a9f3-431f-bed1-93ccae0b499b",
+      "action": "drop",
+      "reason_zh": "原評論描述頁面開啟錯誤，沒有編輯、輸入或鍵盤問題，不能支持此主題。"
+    },
+    {
+      "batch_id": "negative_003",
+      "theme_id": "search_and_content_access",
+      "review_id": "52166f65-17cf-4f70-97ce-410dffe12691",
+      "action": "replace",
+      "replacement_quote": "man Kann keine Seiten öffnen",
+      "reason_zh": "原評論明確表示無法開啟頁面，改用包含原始大小寫的德文片段。"
+    },
+    {
+      "batch_id": "negative_004",
+      "theme_id": "editing_input_and_keyboard_bugs",
+      "review_id": "83b846c5-e77d-48c2-abc5-94a761034fd6",
+      "action": "replace",
+      "replacement_quote": "Does not work with a bluetooth keyboard on Tablet.",
+      "reason_zh": "模型改寫句首；改用原評論中描述藍牙鍵盤問題的完整句子。"
+    },
+    {
+      "batch_id": "negative_004",
+      "theme_id": "data_loss_and_sync_failure",
+      "review_id": "3932a19c-e013-4b62-9481-81e77c3a2ac8",
+      "action": "replace",
+      "replacement_quote": "desapareció toda mi información, solo me aparecen las páginas de ejemplo como si fuera un usuario nuevo",
+      "reason_zh": "原評論描述重新登入後資料消失，改用可回查的西班牙文片段。"
+    },
+    {
+      "batch_id": "negative_005",
+      "theme_id": "performance_lag_and_crashes",
+      "review_id": "54af30d6-d8c7-4d1d-bf67-988f209a7ed6",
+      "action": "replace",
+      "replacement_quote": "It gets slow and have to close it every few minutes on all my devices, including an S25 Ultra.",
+      "reason_zh": "模型改變句首大小寫並省略裝置資訊；改用完整且可回查的句子。"
+    },
+    {
+      "batch_id": "negative_006",
+      "theme_id": "tablet_keyboard_landscape_compatibility",
+      "review_id": "9d279abb-3315-4e2f-b2b3-781787f75d6c",
+      "action": "replace",
+      "replacement_quote": "the app doesn't work that good on the tablet, it's impossible to type with my physical keyboard .",
+      "reason_zh": "原評論明確指出平板與實體鍵盤無法正常使用，改用逐字片段。"
+    },
+    {
+      "batch_id": "negative_006",
+      "theme_id": "offline_sync_share_export_limitations",
+      "review_id": "e8f9a2fb-b515-46e9-901a-3097a81a5395",
+      "action": "drop",
+      "reason_zh": "原評論只描述 Android App 緩慢難用，沒有媒體瀏覽、離線、同步、分享或匯出內容。"
+    },
+    {
+      "batch_id": "negative_007",
+      "theme_id": "missing_functionality_on_mobile",
+      "review_id": "c926ca37-d4ee-41d3-bf23-32d7b0d31953",
+      "action": "replace",
+      "replacement_quote": "sometimes doesn't allow you to upload files, you have to try a thousand time.",
+      "reason_zh": "原評論雖未提離線，但明確描述行動版無法可靠上傳檔案，仍支持功能缺失主題。"
+    },
+    {
+      "batch_id": "positive_001",
+      "theme_id": "ai_assistance_value",
+      "review_id": "8863afa5-db83-4858-b01a-f0060c45a26c",
+      "action": "replace",
+      "replacement_quote": "But the Notion AI helps A LOT.",
+      "reason_zh": "原評論明確肯定 Notion AI 的幫助，改用包含句首連接詞的完整句子。"
+    },
+    {
+      "batch_id": "positive_002",
+      "theme_id": "all_in_one_organization",
+      "review_id": "7ab85c9c-515f-4f2f-8ca5-a4e67ae3c039",
+      "action": "replace",
+      "replacement_quote": "The ultimate all-in-one workspace!",
+      "reason_zh": "模型改變句首大小寫；改用原評論中的完整句子。"
+    }
+  ]
+}

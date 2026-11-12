@@ -1,0 +1,36 @@
+{
+  "release_scope": "general_product_release",
+  "window_days": 28,
+  "minimum_eligible_reviews": 20,
+  "rules": [
+    {
+      "candidate_id": "mixed_or_uncertain_001::editing_and_text_interaction::2026-04-27-rollups-now-as-currency-percent-and-more",
+      "theme_id": "editing_and_text_interaction",
+      "match_any_phrases": [
+        "select large chunks of text",
+        "copy and paste",
+        "cursor",
+        "undo",
+        "letter formatting"
+      ]
+    },
+    {
+      "candidate_id": "negative_001::account_subscription_and_access_issues::2026-05-13-3-5-notion-developer-platform",
+      "theme_id": "account_subscription_and_access_issues",
+      "match_any_phrases": [
+        "locked out",
+        "locked into the login process",
+        "does not work after subscription"
+      ]
+    },
+    {
+      "candidate_id": "negative_001::pricing_and_feature_gating::2026-05-13-3-5-notion-developer-platform",
+      "theme_id": "pricing_and_feature_gating",
+      "match_any_phrases": [
+        "pay extra for credit",
+        "subscription price",
+        "without paying"
+      ]
+    }
+  ]
+}

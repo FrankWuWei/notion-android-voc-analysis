@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "sourceDigestSha256": "9f5bd31b0766fda4a4fc7c53e76046d469e7c651efbbafcb34d92ad931300e24",
+  "scope": {
+    "platform": "Android",
+    "store": "Google Play",
+    "market": "US",
+    "language": "English",
+    "periodStart": "2025-01-01",
+    "periodEnd": "2026-06-19",
+    "rawReviews": 6269,
+    "effectiveReviews": 6186
+  },
+  "pipeline": {
+    "sentiment": {
+      "positive": 3503,
+      "negative": 1209,
+      "uncertain": 1474
+    },
+    "deepAnalysisReviews": 3183,
+    "llmBatches": 23,
+    "validatedBatchThemes": 159,
+    "sourceVerbatimEvidence": 645,
+    "uniqueEvidenceReviews": 618,
+    "canonicalThemes": 17,
+    "painThemes": 11,
+    "positiveValues": 6,
+    "validatedBatches": 23,
+    "expectedBatches": 23,
+    "sourceValidationErrors": 0
+  },
+  "qualityAudit": {
+    "reviewedNonVerbatimQuotes": 35,
+    "replacedWithSupportingVerbatimQuote": 28,
+    "droppedAsUnsupported": 7,
+    "correctedScores": 4
+  },
+  "qualityCase": {
+    "batchId": "mixed_or_uncertain_002",
+    "themeId": "bugs_and_data_loss",
+    "modelQuote": "Plus button beside the AI doesn't work",
+    "sourceReview": "perfect app, but more customization options would be better.",
+    "reviewId": "29c2ed85-37e9-47db-9940-f90aa17603ea",
+    "reviewCreatedAt": "2026-04-16T07:34:42+00:00",
+    "score": 5,
+    "appVersion": "0.6.3772",
+    "decision": "drop",
+    "reasonZh": "原評論只要求更多自訂選項，沒有按鈕失效、錯誤或資料遺失內容。"
+  },
+  "mainThemes": [
+    {
+      "id": "performance_stability",
+      "nameZh": "效能、卡頓與穩定性",
+      "descriptionZh": "App 反應緩慢、卡頓、凍結、當機或裝置負擔過重。",
+      "batchCoverage": 19,
+      "batchCoverageTotal": 19,
+      "evidenceCount": 87,
+      "evidence": [
+        {
+          "id": "performance-delay",
+          "quote": "There’s a big delay in everything — opening pages, loading databases...",
+          "reviewId": "6cb4b9bc-1f7e-4864-8601-b59ce67995b5",
+          "reviewCreatedAt": "2025-12-01T02:22:10+00:00",
+          "score": 2,
+          "appVersion": "0.6.3424",
+          "batchId": "negative_004",
+          "sentimentBucket": "negative"
+        },
+        {
+          "id": "performance-crash",
+          "quote": "keeps crashing becoming unusable",
+          "reviewId": "f3edec70-360a-4810-8df9-91dce8c77be1",
+          "reviewCreatedAt": "2026-02-21T15:40:08+00:00",
+          "score": 2,
+          "appVersion": "0.6.3658",
+          "batchId": "negative_003",
+          "sentimentBucket": "negative"
+        }
+      ]
+    },
+    {
+      "id": "sync_offline_data_integrity",
+      "nameZh": "同步、離線與資料完整性",
+      "descriptionZh": "同步失敗、離線不可用、儲存異常或內容遺失。",
+      "batchCoverage": 18,
+      "batchCoverageTotal": 19,
+      "evidenceCount": 87,
+      "evidence": [
+        {
+          "id": "sync-disappeared-document",
+          "quote": "Spent hours writing a document only for it to completely disappear the next day.",
+          "reviewId": "7baf9c8a-b04d-4828-8cee-e649d713d542",
+          "reviewCreatedAt": "2026-02-13T02:17:16+00:00",
+          "score": 1,
+          "appVersion": "0.6.3634",
+          "batchId": "negative_003",
+          "sentimentBucket": "negative"
+        },
+        {
+          "id": "sync-offline-content",
+          "quote": "I can't view some contents in offline",
+          "reviewId": "2e34c1e6-87eb-4da8-b37e-d0f15e0ca26b",
+          "reviewCreatedAt": "2025-01-13T22:22:04+00:00",
+          "score": 4,
+          "appVersion": "0.6.2710",
+          "batchId": "mixed_or_uncertain_010",
+          "sentimentBucket": "mixed_or_uncertain"
+        }
+      ]
+    },
+    {
+      "id": "editing_input_controls",
+      "nameZh": "編輯、輸入與操作控制",
+      "descriptionZh": "文字輸入、鍵盤、游標、選取、複製貼上、拖曳與區塊操作異常。",
+      "batchCoverage": 17,
+      "batchCoverageTotal": 19,
+      "evidenceCount": 75,
+      "evidence": [
+        {
+          "id": "editing-copy-paste",
+          "quote": "copy/paste and select text don't work as expected",
+          "reviewId": "cb1bc47a-3ffe-46e9-b434-52089681f518",
+          "reviewCreatedAt": "2025-02-12T08:36:04+00:00",
+          "score": 3,
+          "appVersion": "0.6.2771",
+          "batchId": "mixed_or_uncertain_009",
+          "sentimentBucket": "mixed_or_uncertain"
+        },
+        {
+          "id": "editing-bluetooth-keyboard",
+          "quote": "Does not work with a bluetooth keyboard on Tablet.",
+          "reviewId": "83b846c5-e77d-48c2-abc5-94a761034fd6",
+          "reviewCreatedAt": "2025-10-14T12:51:24+00:00",
+          "score": 1,
+          "appVersion": "0.6.3325",
+          "batchId": "negative_004",
+          "sentimentBucket": "negative"
+        }
+      ]
+    }
+  ],
+  "positiveValues": [
+    {
+      "id": "productivity_organization_value",
+      "nameZh": "生產力與一站式整理",
+      "descriptionZh": "個人、學習、工作與團隊情境中的整理和工作流程價值。",
+      "evidenceCount": 29,
+      "evidence": {
+        "id": "positive-productivity",
+        "quote": "I run my business, the businesses of multiple clients and my personal life, tasks and finances from here.",
+        "reviewId": "0abf4d5c-d3a4-45fa-97d9-481032b6d26d",
+        "reviewCreatedAt": "2025-05-31T01:00:34+00:00",
+        "score": 5,
+        "appVersion": "0.6.3023",
+        "batchId": "positive_001",
+        "sentimentBucket": "positive"
+      }
+    },
+    {
+      "id": "ai_assistance_value",
+      "nameZh": "AI 輔助價值",
+      "descriptionZh": "AI 在搜尋、整理、摘要與內容建立上的幫助。",
+      "evidenceCount": 14,
+      "evidence": {
+        "id": "positive-ai-assistance",
+        "quote": "The fact that an AI agent can set up the whole thing for me now is amazing",
+        "reviewId": "b37d594b-f6be-41a4-957c-d4f4a6e40c35",
+        "reviewCreatedAt": "2025-12-16T07:32:15+00:00",
+        "score": 5,
+        "appVersion": "0.6.3486",
+        "batchId": "positive_001",
+        "sentimentBucket": "positive"
+      }
+    },
+    {
+      "id": "customization_template_value",
+      "nameZh": "自訂彈性與模板價值",
+      "descriptionZh": "彈性結構、模板、版面與自訂能力受到肯定。",
+      "evidenceCount": 14,
+      "evidence": {
+        "id": "positive-templates",
+        "quote": "The many free templates are a godsend.",
+        "reviewId": "f59e80d8-fda6-4e74-8aff-5875bab9f5dd",
+        "reviewCreatedAt": "2026-02-15T11:02:09+00:00",
+        "score": 5,
+        "appVersion": "0.6.3634",
+        "batchId": "positive_001",
+        "sentimentBucket": "positive"
+      }
+    }
+  ],
+  "extendedValidation": {
+    "windowDays": 28,
+    "candidateCases": 3,
+    "ruleMatchedReviews": 6,
+    "scope": "general_product_release",
+    "example": {
+      "candidateId": "mixed_or_uncertain_001::editing_and_text_interaction::2026-04-27-rollups-now-as-currency-percent-and-more",
+      "themeId": "editing_and_text_interaction",
+      "themeNameZh": "編輯、選取、複製貼上與文字格式操作不順",
+      "releaseDate": "2026-04-27",
+      "releaseTitle": "Rollups now as currency, percent, and more",
+      "releaseScope": "general_product_release",
+      "windowDays": 28,
+      "before": {
+        "eligibleReviews": 61,
+        "matchedReviews": 1,
+        "matchRate": 0.016393
+      },
+      "after": {
+        "eligibleReviews": 73,
+        "matchedReviews": 0,
+        "matchRate": 0.0
+      },
+      "rateChangePercentagePoints": -1.6393,
+      "observationStatus": "not_observed_after_release",
+      "rulePhrases": [
+        "select large chunks of text",
+        "copy and paste",
+        "cursor",
+        "undo",
+        "letter formatting"
+      ],
+      "evidence": {
+        "quote": "In a list, cursor automatically shifts to previous line and starts messing it.",
+        "sourceReview": "I like Notion on website but it's terrible in app. The basic text editor itself is flawed. I write something and suddenly gibberish characters come out of nowhere. In a list, cursor automatically shifts to previous line and starts messing it. Terrible UX. I informed the team about the bug via email more than 6 months ago (even share screen recordings) and still the issue exists :( Thomas Frank built an amazing system but Notion made it useless on mobile :(",
+        "reviewId": "2bb74a5c-0709-4597-9641-cdee200f6b78",
+        "reviewCreatedAt": "2026-04-10T00:23:19+00:00",
+        "score": 1,
+        "appVersion": "0.6.3670",
+        "period": "pre",
+        "matchedPhrases": [
+          "cursor"
+        ]
+      }
+    }
+  },
+  "engineering": {
+    "analysisTestCount": 59,
+    "configVersion": 1,
+    "canonicalTaxonomyVersion": 1,
+    "quoteReviewVersion": 1
+  },
+  "countingBoundary": "Source-theme, batch, and validated-evidence coverage only; not full-corpus prevalence."
+}

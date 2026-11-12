@@ -1,0 +1,116 @@
+{
+  "version": 1,
+  "expected": {
+    "raw_review_count": 6269,
+    "effective_review_count": 6186,
+    "positive_review_count": 3503,
+    "negative_review_count": 1209,
+    "uncertain_review_count": 1474,
+    "deep_analysis_review_count": 3183,
+    "llm_batch_count": 23,
+    "batch_theme_count": 159,
+    "evidence_count": 645,
+    "unique_evidence_review_count": 618,
+    "canonical_theme_count": 17,
+    "pain_theme_count": 11,
+    "positive_value_count": 6,
+    "extended_candidate_count": 3,
+    "extended_evidence_count": 6,
+    "analysis_test_count": 59,
+    "source_validation_error_count": 0,
+    "review_period_start": "2025-01-01",
+    "review_period_end": "2026-06-19"
+  },
+  "main_theme_selections": [
+    {
+      "theme_id": "performance_stability",
+      "evidence": [
+        {
+          "id": "performance-delay",
+          "review_id": "6cb4b9bc-1f7e-4864-8601-b59ce67995b5",
+          "quote": "There’s a big delay in everything — opening pages, loading databases..."
+        },
+        {
+          "id": "performance-crash",
+          "review_id": "f3edec70-360a-4810-8df9-91dce8c77be1",
+          "quote": "keeps crashing becoming unusable"
+        }
+      ]
+    },
+    {
+      "theme_id": "sync_offline_data_integrity",
+      "evidence": [
+        {
+          "id": "sync-disappeared-document",
+          "review_id": "7baf9c8a-b04d-4828-8cee-e649d713d542",
+          "quote": "Spent hours writing a document only for it to completely disappear the next day."
+        },
+        {
+          "id": "sync-offline-content",
+          "review_id": "2e34c1e6-87eb-4da8-b37e-d0f15e0ca26b",
+          "quote": "I can't view some contents in offline"
+        }
+      ]
+    },
+    {
+      "theme_id": "editing_input_controls",
+      "evidence": [
+        {
+          "id": "editing-copy-paste",
+          "review_id": "cb1bc47a-3ffe-46e9-b434-52089681f518",
+          "quote": "copy/paste and select text don't work as expected"
+        },
+        {
+          "id": "editing-bluetooth-keyboard",
+          "review_id": "83b846c5-e77d-48c2-abc5-94a761034fd6",
+          "quote": "Does not work with a bluetooth keyboard on Tablet."
+        }
+      ]
+    }
+  ],
+  "positive_value_selections": [
+    {
+      "theme_id": "productivity_organization_value",
+      "evidence": {
+        "id": "positive-productivity",
+        "review_id": "0abf4d5c-d3a4-45fa-97d9-481032b6d26d",
+        "quote": "I run my business, the businesses of multiple clients and my personal life, tasks and finances from here."
+      }
+    },
+    {
+      "theme_id": "ai_assistance_value",
+      "evidence": {
+        "id": "positive-ai-assistance",
+        "review_id": "b37d594b-f6be-41a4-957c-d4f4a6e40c35",
+        "quote": "The fact that an AI agent can set up the whole thing for me now is amazing"
+      }
+    },
+    {
+      "theme_id": "customization_template_value",
+      "evidence": {
+        "id": "positive-templates",
+        "review_id": "f59e80d8-fda6-4e74-8aff-5875bab9f5dd",
+        "quote": "The many free templates are a godsend."
+      }
+    }
+  ],
+  "quality_case": {
+    "batch_id": "mixed_or_uncertain_002",
+    "theme_id": "bugs_and_data_loss",
+    "review_id": "29c2ed85-37e9-47db-9940-f90aa17603ea",
+    "model_quote": "Plus button beside the AI doesn't work",
+    "expected_source_review": "perfect app, but more customization options would be better."
+  },
+  "extended_validation_example": {
+    "candidate_id": "mixed_or_uncertain_001::editing_and_text_interaction::2026-04-27-rollups-now-as-currency-percent-and-more",
+    "evidence_review_id": "2bb74a5c-0709-4597-9641-cdee200f6b78",
+    "quote": "In a list, cursor automatically shifts to previous line and starts messing it.",
+    "expected": {
+      "release_date": "2026-04-27",
+      "pre_eligible_count": 61,
+      "post_eligible_count": 73,
+      "pre_match_count": 1,
+      "post_match_count": 0
+    }
+  }
+}

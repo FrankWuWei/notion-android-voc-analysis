@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "method": "deterministic_no_api",
+  "source_scope": "validated_batch_level_themes",
+  "counting_boundary": "Counts describe source-theme, batch, and validated-evidence coverage; they are not full-corpus prevalence.",
+  "pain_themes": [
+    {
+      "id": "performance_stability",
+      "name_zh": "效能、卡頓與穩定性",
+      "description_zh": "App 反應緩慢、卡頓、凍結、當機或裝置負擔過重。"
+    },
+    {
+      "id": "sync_offline_data_integrity",
+      "name_zh": "同步、離線與資料完整性",
+      "description_zh": "同步失敗、離線不可用、儲存異常或內容遺失。"
+    },
+    {
+      "id": "editing_input_controls",
+      "name_zh": "編輯、輸入與操作控制",
+      "description_zh": "文字輸入、鍵盤、游標、選取、複製貼上、拖曳與區塊操作異常。"
+    },
+    {
+      "id": "mobile_ux_feature_parity",
+      "name_zh": "行動版體驗與功能落差",
+      "description_zh": "手機或平板導覽、版面、相容性及與桌面版之間的功能落差。"
+    },
+    {
+      "id": "content_rendering_access",
+      "name_zh": "內容載入、顯示與存取",
+      "description_zh": "頁面空白、載入失敗、內容或 Widget 不顯示，以及圖片上傳與呈現異常。"
+    },
+    {
+      "id": "ai_intrusion_controls",
+      "name_zh": "AI 介面干擾與控制權",
+      "description_zh": "AI 功能過度介入、難以關閉、實用性、隱私或額外付費疑慮。"
+    },
+    {
+      "id": "account_access_auth",
+      "name_zh": "帳號、登入與存取權限",
+      "description_zh": "註冊、登入、驗證、帳號管理與權限存取流程受阻。"
+    },
+    {
+      "id": "pricing_subscription_gating",
+      "name_zh": "價格、訂閱與功能門檻",
+      "description_zh": "價格、方案價值、訂閱限制與額外付費功能引發的不滿。"
+    },
+    {
+      "id": "search_discovery",
+      "name_zh": "搜尋與內容尋找",
+      "description_zh": "搜尋、頁內查找、內容定位與功能可發現性不足。"
+    },
+    {
+      "id": "onboarding_learnability",
+      "name_zh": "上手門檻與操作理解",
+      "description_zh": "新手引導不足、介面複雜、基本操作或功能位置難以理解。"
+    },
+    {
+      "id": "customization_feature_gaps",
+      "name_zh": "自訂能力與一般功能缺口",
+      "description_zh": "非行動版限定的版面、樣式、自訂選項與常用功能需求。"
+    }
+  ],
+  "positive_value_themes": [
+    {
+      "id": "productivity_organization_value",
+      "name_zh": "生產力與一站式整理",
+      "description_zh": "個人、學習、工作與團隊情境中的整理和工作流程價值。"
+    },
+    {
+      "id": "customization_template_value",
+      "name_zh": "自訂彈性與模板價值",
+      "description_zh": "彈性結構、模板、版面與自訂能力受到肯定。"
+    },
+    {
+      "id": "cross_device_mobile_value",
+      "name_zh": "跨裝置與行動存取",
+      "description_zh": "跨裝置同步、Android 可用性與隨時存取的價值。"
+    },
+    {
+      "id": "ai_assistance_value",
+      "name_zh": "AI 輔助價值",
+      "description_zh": "AI 在搜尋、整理、摘要與內容建立上的幫助。"
+    },
+    {
+      "id": "usability_learning_value",
+      "name_zh": "介面、易用性與學習資源",
+      "description_zh": "介面設計、易用性、模板及學習資源帶來的正向體驗。"
+    },
+    {
+      "id": "accessible_value_and_trust",
+      "name_zh": "可取得價值與產品信任",
+      "description_zh": "免費版、少廣告、持續更新、客服與產品品質形成的信任。"
+    }
+  ]
+}

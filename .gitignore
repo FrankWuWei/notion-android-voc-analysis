@@ -1,0 +1,41 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local credentials and environment configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local tooling, temporary files, and disabled Git directories
+/.agents/
+/.codex/
+/.playwright-cli/
+/.superpowers/
+/.git.disabled*/
+/tmp/
+/output/
+*.log
+
+# Dependencies and build artifacts
+node_modules/
+dist/
+coverage/
+
+# Collected reviews and generated analysis inputs stay local
+/data/raw/**
+/data/interim/**
+/data/processed/**
+!/data/raw/.gitkeep
+!/data/interim/.gitkeep
+!/data/processed/.gitkeep
+
+outputs/figures/*
+outputs/tables/*
+outputs/reports/*
+!outputs/figures/.gitkeep
+!outputs/tables/.gitkeep
+!outputs/reports/.gitkeep
